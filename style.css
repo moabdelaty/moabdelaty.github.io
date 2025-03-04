@@ -24,7 +24,7 @@ header p {
     font-size: 1.2rem;
     opacity: 0.8;
 }
-/*under construction banner*/
+/* Highlight for construction emoji */
 .construction-banner {
     background: #ffcc00;
     color: #000000;
@@ -33,7 +33,18 @@ header p {
     text-align: center;
     font-size: 1.1rem;
     margin-top: -10px;
+    position: relative;
 }
+
+.construction-banner .highlight-emoji {
+    background: #000000;
+    color: #ffcc00;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin: 0 5px;
+    display: inline-block;
+}
+
 
 
 
