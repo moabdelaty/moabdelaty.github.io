@@ -24,6 +24,19 @@ header p {
     font-size: 1.2rem;
     opacity: 0.8;
 }
+/*under construction banner*/
+.construction-banner {
+    background: #ffcc00;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: -10px;
+}
+
+
+
 
 /* Project Container */
 .container {
