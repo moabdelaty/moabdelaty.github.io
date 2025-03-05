@@ -1,0 +1,312 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #1a1f24;
+    padding: 40px 20px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.project-card,
+.certification-card {
+    width: 250px;
+    /* Fixed width */
+    height: 500px;
+    /* Fixed height */
+    background: #16191c;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* Ensures content is evenly spaced */
+}
+
+
+
+/* style.css */
+
+.resume-certifications {
+    background-color: #28293d;
+    /* Slightly darker */
+    padding: 20px;
+}
+
+/* style.css */
+.section-divider {
+    height: 4px;
+    background-color: #3d2c9e;
+    /* Green line to match the highlight */
+    margin: 20px 0;
+}
+
+/* Highlight for construction emoji */
+.construction-banner {
+    background: #ffcc00;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: -10px;
+    position: relative;
+}
+
+.construction-banner .highlight-emoji {
+    background: #000000;
+    color: #ffcc00;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+/* Certifications Container */
+.certifications-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    align-items: center;
+}
+
+/* Certification Card */
+.certification-card {
+    background: #16191c;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certification-card:hover {
+    transform: scale(1.05);
+}
+
+.certification-card img {
+    width: 60%;
+    /* Full width of the container */
+    height: 40%;
+    /* Maintain aspect ratio */
+    margin-bottom: 15px;
+    border-radius: 10px;
+    /* Slightly rounded corners */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow for depth */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    /* Smooth hover effect */
+}
+
+/* Add hover effect for a fancy feel */
+.certification-card img:hover {
+    transform: scale(1.05);
+    /* Slight zoom on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+    /* Enhanced shadow on hover */
+}
+
+.certification-card h3 {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.certification-card p {
+    font-size: 0.95rem;
+    opacity: 0.8;
+    margin-bottom: 15px;
+    color: #d4d7dd;
+}
+
+/* Link for Certifications */
+.certification-card a {
+    display: inline-block;
+    background: white;
+    color: #16191c;
+    padding: 10px 15px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease-in-out;
+}
+
+.certification-card a:hover {
+    background: #f8f9fa;
+    transform: scale(1.1);
+    /* Scale up the link */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    /* Add shadow effect */
+}
+
+/* Skills Section */
+.certification-card .skills-container {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.certification-card .skills-container h4 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.certification-card .skill-snippet {
+    display: inline-block;
+    background: #ffffff;
+    color: #16191c;
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.certification-card .skill-snippet:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Project Container */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+/* Project Card */
+.project-card {
+    background: #16191c;
+    border-radius: 10px;
+    width: 300px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Project Image */
+.project-card img {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Project Info */
+.project-info h2 {
+    font-size: 1.5rem;
+    margin: 15px 0 10px;
+    color: #f8f9fa;
+    text-align: center;
+}
+
+.project-info p {
+    font-size: 1rem;
+    opacity: 0.8;
+    text-align: center;
+}
+
+/* GitHub Link */
+.project-info a {
+    display: inline-block;
+    background: white;
+    color: #16191c;
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease-in-out;
+}
+
+.project-info a:hover {
+    background: #f8f9fa;
+    transform: scale(1.1);
+    /* Scale up the link */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    /* Add shadow effect */
+}
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: #0d161c;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+section {
+    margin: 40px 0;
+    /* Adds space around each section */
+}
+
+footer a:hover {
+    color: #00aaff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    .certifications-container,
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .certification-card,
+    .project-card {
+        width: 90%;
+    }
+}
