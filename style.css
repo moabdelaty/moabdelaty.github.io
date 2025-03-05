@@ -1,6 +1,5 @@
 /* General Styling */
 body {
-<<<<<<< HEAD
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -82,21 +81,6 @@ header p {
     border-radius: 5px;
     margin: 0 5px;
     display: inline-block;
-=======
-    font-family: 'Arial', sans-serif;
-    background-color: #16191c; /* Dark background */
-    color: #f8f9fa; /* Light text */
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-h2 {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 2rem;
-    color: #f8f9fa;
->>>>>>> 52c1ea010fbeadb4f8f0254835824d908827db30
 }
 
 /* Certifications Container */
@@ -105,7 +89,6 @@ h2 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-<<<<<<< HEAD
     padding: 30px;
     align-items: center;
 }
@@ -122,25 +105,10 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-=======
-    padding: 20px;
-}
-
-/* Certification Card Styling */
-.certification-card {
-    background: #1e2025; /* Slightly lighter background for cards */
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    padding: 20px;
-    max-width: 300px;
-    text-align: center;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
->>>>>>> 52c1ea010fbeadb4f8f0254835824d908827db30
 }
 
 .certification-card:hover {
     transform: scale(1.05);
-<<<<<<< HEAD
 }
 
 .certification-card img {
@@ -163,41 +131,22 @@ h2 {
     /* Slight zoom on hover */
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
     /* Enhanced shadow on hover */
-=======
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
-}
-
-.certification-card img {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 10px;
-    border-radius: 50%;
-    border: 2px solid #f8f9fa;
->>>>>>> 52c1ea010fbeadb4f8f0254835824d908827db30
 }
 
 .certification-card h3 {
     font-size: 1.2rem;
-<<<<<<< HEAD
     color: white;
     margin-bottom: 5px;
     text-align: center;
-=======
-    margin-bottom: 5px;
->>>>>>> 52c1ea010fbeadb4f8f0254835824d908827db30
 }
 
 .certification-card p {
     font-size: 0.95rem;
-<<<<<<< HEAD
     opacity: 0.8;
-=======
->>>>>>> 52c1ea010fbeadb4f8f0254835824d908827db30
     margin-bottom: 15px;
     color: #d4d7dd;
 }
 
-<<<<<<< HEAD
 /* Link for Certifications */
 .certification-card a {
     display: inline-block;
@@ -222,43 +171,17 @@ h2 {
 /* Skills Section */
 .certification-card .skills-container {
     margin-top: 5px;
-=======
-.certification-card a {
-    display: inline-block;
-    color: #4caf50; /* Bright green for links */
-    text-decoration: none;
-    font-weight: bold;
-    border: 2px solid #4caf50;
-    padding: 5px 15px;
-    border-radius: 5px;
-    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-
-.certification-card a:hover {
-    background: #4caf50;
-    color: #fff;
-}
-
-/* Skills Section Within Certifications */
-.certification-card .skills-container {
-    margin-top: 20px;
->>>>>>> 52c1ea010fbeadb4f8f0254835824d908827db30
     text-align: center;
 }
 
 .certification-card .skills-container h4 {
     font-size: 1rem;
     margin-bottom: 10px;
-<<<<<<< HEAD
     color: white;
-=======
-    color: #f8f9fa;
->>>>>>> 52c1ea010fbeadb4f8f0254835824d908827db30
 }
 
 .certification-card .skill-snippet {
     display: inline-block;
-<<<<<<< HEAD
     background: #ffffff;
     color: #16191c;
     padding: 5px 10px;
@@ -267,15 +190,6 @@ h2 {
     font-size: 0.8rem;
     font-weight: bold;
     text-align: center;
-=======
-    background: #ffffff; /* Off-white background */
-    color: #16191c; /* Dark text */
-    padding: 8px 15px;
-    margin: 5px;
-    border-radius: 5px;
-    font-size: 0.9rem;
-    font-weight: bold;
->>>>>>> 52c1ea010fbeadb4f8f0254835824d908827db30
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
@@ -285,7 +199,6 @@ h2 {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-<<<<<<< HEAD
 /* Project Container */
 .container {
     display: flex;
@@ -388,24 +301,12 @@ footer a:hover {
 
     .certifications-container,
     .container {
-=======
-/* Responsive Design */
-@media (max-width: 768px) {
-    .certifications-container {
->>>>>>> 52c1ea010fbeadb4f8f0254835824d908827db30
         flex-direction: column;
         align-items: center;
     }
 
-<<<<<<< HEAD
     .certification-card,
     .project-card {
         width: 90%;
     }
 }
-=======
-    .certification-card {
-        width: 90%;
-    }
-}
->>>>>>> 52c1ea010fbeadb4f8f0254835824d908827db30
