@@ -131,3 +131,23 @@ footer a:hover {
     color: #00aaff;
 }
 
+
+.highlight-bg {
+        background: #2a2d32;
+        color: #ffcc00;
+        padding: 8px 12px;
+        border-radius: 5px;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
